@@ -14,7 +14,7 @@ https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-
 ## Generate SSH KEY
  ssh-keygen -t ed25519 -C "giyawe98@gmail.com"
 ## List all SSH Keys 
->ls -al ~/.ssh
+ls -al ~/.ssh
 ## Run something...
 eval "$(ssh-agent -s)"
 ## Add SSH Key to keychain 
