@@ -1,15 +1,5 @@
 # my-dev-setup
 Commands and Scripts for setting up a new Computer for Development.
-
-Homebrew/terminal/bash
-OSX Settings - Dock/Finder
-Web Browser - Extensions - AdBlock, Privacy Badger, OneTab, JSONViewer, Stylus, Vue Devtools, React Devtools
-Node.js - nvm
-Code Editor - vs code
-Code Editor Extensions
-Docker
-
-
 for other instructions follow -> https://www.youtube.com/watch?v=tMNOpaQrfAE
 
 
