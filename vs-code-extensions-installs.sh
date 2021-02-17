@@ -1,43 +1,39 @@
-#!/bin/sh
+#!/bin/bash
 
-PACKAGES=(
-    alexcvzz.vscode-sqlite
-    andys8.jest-snippets
-    BriteSnow.vscode-toggle-quotes
-    christian-kohler.npm-intellisense
-    christian-kohler.path-intellisense
-    CoenraadS.bracket-pair-colorizer
-    dbaeumer.vscode-eslint
-    esbenp.prettier-vscode
-    formulahendry.auto-close-tag
-    formulahendry.auto-rename-tag
-    fosshaas.fontsize-shortcuts
-    ginfuru.ginfuru-onedark-raincoat-theme
-    glitch.glitch
-    HookyQR.beautify
-    JCsoftIA.jcsoftia
-    johnpapa.vscode-cloak
-    mikestead.dotenv
-    ms-azuretools.vscode-docker
-    ms-mssql.mssql
-    ms-vscode-remote.remote-containers
-    ms-vscode-remote.remote-ssh
-    ms-vscode-remote.remote-ssh-edit
-    ms-vsliveshare.vsliveshare
-    msjsdiag.debugger-for-chrome
-    octref.vetur
-    Orta.vscode-jest
-    patbenatar.advanced-new-file
-    PKief.material-icon-theme
-    ritwickdey.LiveServer
-    SmukkeKim.theme-setimonokai
-    streetsidesoftware.code-spell-checker
-    syler.sass-indented
-    vscode-icons-team.vscode-icons
-    WallabyJs.quokka-vscode
-    WallabyJs.wallaby-vscode
-    whatwedo.twig
-    Zignd.html-css-class-completion
-)
-echo "Installing VSCODE Exxtension..."
-code --install-extension ${PACKAGES[@]}
+    code --install-extension andys8.jest-snippets
+    code --install-extension christian-kohler.npm-intellisense
+    code --install-extension BriteSnow.vscode-toggle-quotes
+    code --install-extension christian-kohler.path-intellisense
+    code --install-extension CoenraadS.bracket-pair-colorizer
+    code --install-extension dbaeumer.vscode-eslint
+    code --install-extension esbenp.prettier-vscode
+    code --install-extension formulahendry.auto-close-tag
+    code --install-extension formulahendry.auto-rename-tag
+    code --install-extension fosshaas.fontsize-shortcuts
+    code --install-extension ginfuru.ginfuru-onedark-raincoat-theme
+    code --install-extension glitch.glitch
+    code --install-extension HookyQR.beautify
+    code --install-extension JCsoftIA.jcsoftia
+    code --install-extension johnpapa.vscode-cloak
+    code --install-extension mikestead.dotenv
+    code --install-extension ms-azuretools.vscode-docker
+    code --install-extension ms-mssql.mssql
+    code --install-extension ms-vscode-remote.remote-containers
+    code --install-extension ms-vscode-remote.remote-ssh
+    code --install-extension ms-vscode-remote.remote-ssh-edit
+    code --install-extension ms-vsliveshare.vsliveshare
+    code --install-extension msjsdiag.debugger-for-chrome
+    code --install-extension octref.vetur
+    code --install-extension Orta.vscode-jest
+    code --install-extension patbenatar.advanced-new-file
+    code --install-extension PKief.material-icon-theme
+    code --install-extension ritwickdey.LiveServer
+    code --install-extension SmukkeKim.theme-setimonokai
+    code --install-extension streetsidesoftware.code-spell-checker
+    code --install-extension syler.sass-indented
+    code --install-extension vscode-icons-team.vscode-icons
+    code --install-extension WallabyJs.quokka-vscode
+    code --install-extension WallabyJs.wallaby-vscode
+    code --install-extension whatwedo.twig
+    code --install-extension Zignd.html-css-class-completion
+    
