@@ -1,0 +1,43 @@
+#!/bin/sh
+
+PACKAGES=(
+    alexcvzz.vscode-sqlite
+    andys8.jest-snippets
+    BriteSnow.vscode-toggle-quotes
+    christian-kohler.npm-intellisense
+    christian-kohler.path-intellisense
+    CoenraadS.bracket-pair-colorizer
+    dbaeumer.vscode-eslint
+    esbenp.prettier-vscode
+    formulahendry.auto-close-tag
+    formulahendry.auto-rename-tag
+    fosshaas.fontsize-shortcuts
+    ginfuru.ginfuru-onedark-raincoat-theme
+    glitch.glitch
+    HookyQR.beautify
+    JCsoftIA.jcsoftia
+    johnpapa.vscode-cloak
+    mikestead.dotenv
+    ms-azuretools.vscode-docker
+    ms-mssql.mssql
+    ms-vscode-remote.remote-containers
+    ms-vscode-remote.remote-ssh
+    ms-vscode-remote.remote-ssh-edit
+    ms-vsliveshare.vsliveshare
+    msjsdiag.debugger-for-chrome
+    octref.vetur
+    Orta.vscode-jest
+    patbenatar.advanced-new-file
+    PKief.material-icon-theme
+    ritwickdey.LiveServer
+    SmukkeKim.theme-setimonokai
+    streetsidesoftware.code-spell-checker
+    syler.sass-indented
+    vscode-icons-team.vscode-icons
+    WallabyJs.quokka-vscode
+    WallabyJs.wallaby-vscode
+    whatwedo.twig
+    Zignd.html-css-class-completion
+)
+echo "Installing VSCODE Exxtension..."
+code --install-extension ${PACKAGES[@]}
